@@ -5,17 +5,17 @@
  *followed by a new line
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 char i;
 int counter;
 
-for (counter = 0; i < 10; counter++)
+for (counter = 0; counter < 10; counter++)
 {
 for (i = 'a'; i <= 'z'; i++)
 {
 	_putchar(i);
 }
-}
 _putchar('\n');
+}
 }
